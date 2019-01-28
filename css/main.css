@@ -1,0 +1,137 @@
+body {
+    background: url("/img/istanbul-3911225_1920.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+p {
+    color:#ffff;
+    font-size: 20px;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.rounded-img {
+    width: 120px;
+    height: 120px;
+    border: double 4px transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #C9D6FF, #E2E2E2);
+    background-clip: content-box, border-box;
+    margin: 0 auto;
+}
+
+#flip {
+    height: 50px;
+    overflow: hidden;
+}
+
+#flip > div > div {
+    color: #fff;
+    padding: 4px 12px;
+    height: 50px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+
+#flip div:first-child {
+    animation: show 8s linear infinite;
+    animation-delay: 6s;
+    visibility: hidden;
+}
+
+@keyframes show {
+    to {visibility:visible;} 
+    0% {margin-top:-360px;}
+    12% {margin-top:-270px;}
+    18% {margin-top:-270px;}
+    36% {margin-top:-180px;}
+    41% {margin-top:-180px; }
+    55% {margin-top:-90px;}
+    60% {margin-top:-90px;}
+    72% {margin-top:0px;}    
+    99.99% {margin-top:0px;}
+    100% {margin-top:-360px;}
+}
+
+@keyframes showIcons {
+    to {
+        opacity: 1;
+    }
+    to {
+        visibility: visible;
+    }
+}
+
+.icons {
+    text-align: center;
+    max-width: 500px;
+    max-height: 300px;
+    margin-top: 30px;
+    padding: 10px;
+    animation: showIcons 2s forwards;
+    animation-delay: 7.5s;
+    opacity: 0;
+    visibility: visible;
+}
+
+@keyframes showIcons{
+    to{opacity: 1;}
+    to{visibility: visible;}
+}
+
+.rounded-icon {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 0px;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+}
+
+.rounded-icon:hover {
+    background: rgba(10, 10, 10, 0.1);
+    border-color: rgba(10, 10, 10, 0.1);
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+.fa-medium:hover {
+    background-color: #0BE370;
+}
+
+.fa-github:hover {
+    background-color: #302F2F;
+}
+
+.cursor{
+    animation: blink 0.5s infinite;
+    opacity: 0;
+}
+
+@keyframes blink{
+    
+    99%{opacity: 1;}
+    100%{opacity: 0;}
+    
+}
+
