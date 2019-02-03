@@ -1,6 +1,6 @@
 $(document).ready(function () {
     new Typed('.firstText', {
-        strings: ["Hello, I'm Safa 👋"],
+        strings: ["Hi, I'm Safa 👋"],
         typeSpeed: 20,
         startDelay: 900,
         showCursor: false

@@ -1,5 +1,6 @@
 body {
-    background: url("/img/istanbul-3911225_1920.jpg") no-repeat center center fixed;
+    background: url("../img/istanbul-3911225_1920.jpg") no-repeat center center fixed;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
 }
