@@ -25,7 +25,7 @@ $(document).ready(function () {
         showCursor: false
     }),
     new Typed('.mailInfo', {
-        strings: ["Get in touch <a href='mailto:'>tsafaelmali@gmail.com</a><span class='cursor'>_</span>"],
+        strings: ["Get in touch <a href='mailto:tsafaelmali@gmail.com'>tsafaelmali@gmail.com</a><span class='cursor'>_</span>"],
         typeSpeed: 20,
         startDelay: 8500,
         showCursor: false
