@@ -1,3 +1,7 @@
+html {
+    overflow: hidden;
+}
+
 body {
     background: url("../img/istanbul-3911225_1920.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -7,7 +11,7 @@ body {
 }
 
 p {
-    color:#ffff;
+    color: #ffff;
     font-size: 20px;
 }
 
@@ -36,7 +40,7 @@ a:hover {
     overflow: hidden;
 }
 
-#flip > div > p {
+#flip>div>p {
     color: #fff;
     padding: 4px 12px;
     height: 45px;
@@ -52,23 +56,56 @@ a:hover {
 }
 
 @keyframes show {
-    to {visibility:visible;} 
-    0% {margin-top:-360px;}
-    12% {margin-top:-270px;}
-    18% {margin-top:-270px;}
-    36% {margin-top:-180px;}
-    41% {margin-top:-180px; }
-    55% {margin-top:-90px;}
-    60% {margin-top:-90px;}
-    72% {margin-top:0px;}    
-    99.99% {margin-top:0px;}
-    100% {margin-top:-360px;}
+    to {
+        visibility: visible;
+    }
+
+    0% {
+        margin-top: -360px;
+    }
+
+    12% {
+        margin-top: -270px;
+    }
+
+    18% {
+        margin-top: -270px;
+    }
+
+    36% {
+        margin-top: -180px;
+    }
+
+    41% {
+        margin-top: -180px;
+    }
+
+    55% {
+        margin-top: -90px;
+    }
+
+    60% {
+        margin-top: -90px;
+    }
+
+    72% {
+        margin-top: 0px;
+    }
+
+    99.99% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: -360px;
+    }
 }
 
 @keyframes showIcons {
     to {
         opacity: 1;
     }
+
     to {
         visibility: visible;
     }
@@ -86,9 +123,14 @@ a:hover {
     visibility: visible;
 }
 
-@keyframes showIcons{
-    to{opacity: 1;}
-    to{visibility: visible;}
+@keyframes showIcons {
+    to {
+        opacity: 1;
+    }
+
+    to {
+        visibility: visible;
+    }
 }
 
 .rounded-icon {
@@ -126,15 +168,19 @@ a:hover {
     background-color: #302F2F;
 }
 
-.cursor{
+.cursor {
     animation: blink 0.5s infinite;
     opacity: 0;
 }
 
-@keyframes blink{
-    
-    99%{opacity: 1;}
-    100%{opacity: 0;}
-    
-}
+@keyframes blink {
 
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
