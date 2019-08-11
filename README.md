@@ -1,5 +1,10 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f3dc9a02-37c4-4989-9b56-e55c0ba74427/deploy-status)](https://app.netlify.com/sites/tsafaelmali/deploys)
-<h1>Simple Personal Website</h1>
+
+<div align="center"> 
+  <h1>Simple Personal Website</h1>
+  
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/f3dc9a02-37c4-4989-9b56-e55c0ba74427/deploy-status)](https://app.netlify.com/sites/tsafaelmali/deploys) 
+  
+</div>
 <p>Just made a simple personal website 🎉</p>
 
 I used:
@@ -12,7 +17,11 @@ I used:
 
 <h1>Demo</h1>
 
+<div align="center">
+  
 ![Alt Text](https://github.com/SafaElmali/SimplePersonalWebsite/blob/master/demo/demo.gif)
+
+</div>
 
 **Note**: I increased the speed of the video because time is important ⌛</p> 
 
