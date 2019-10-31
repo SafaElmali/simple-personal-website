@@ -30,3 +30,11 @@ $(document).ready(function () {
         startDelay: 8500,
         showCursor: false
     });
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-138208404-1");

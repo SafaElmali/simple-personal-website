@@ -1,5 +1,4 @@
-html,
-body {
+html {
     min-height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
@@ -10,6 +9,9 @@ body {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 p {
