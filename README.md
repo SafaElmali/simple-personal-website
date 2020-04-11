@@ -10,6 +10,9 @@
 ## Toolbox Of This Project 🧰 
 
 <ul>
+  <li>HTML</li>
+  <li>CSS</li>  
+  <li>JavaScript</li>
   <li><a href="https://github.com/mattboldt/typed.js/">Typed.js</a></li>
   <li><a href="https://github.com/daneden/animate.css">Animate.css</a></li>
   <li><a href="https://github.com/twbs/bootstrap">Bootstrap 4</a></li>
