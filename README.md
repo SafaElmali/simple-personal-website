@@ -7,11 +7,12 @@
 </div>
 <p>Just made a simple personal website 🎉</p>
 
-I used:
+## Toolbox Of This Project 🧰 
+
 <ul>
-  <li><a href="https://github.com/mattboldt/typed.js/">Typed.js <img src="https://raw.githubusercontent.com/mattboldt/typed.js/master/logo-cropped.png" width=70 margin-top=150px/></a></li>
+  <li><a href="https://github.com/mattboldt/typed.js/">Typed.js</a></li>
   <li><a href="https://github.com/daneden/animate.css">Animate.css</a></li>
-  <li><a href="https://github.com/twbs/bootstrap">Bootstrap 4 <img src="https://www.drupal.org/files/project-images/bootstrap-stack.png" width=40 /></a></li>
+  <li><a href="https://github.com/twbs/bootstrap">Bootstrap 4</a></li>
   <li><a href="https://github.com/FortAwesome/Font-Awesome">Font awesome</a> for social media icons</li>
 </ul>
 
