@@ -21,8 +21,6 @@
   <li><a href="https://github.com/FortAwesome/Font-Awesome">Font awesome</a> for social media icons</li>
 </ul>
 
-<h1>Demo</h1>
-
 ### License
 
 Simple-Personal-Website is [MIT licensed](./LICENSE).
