@@ -7,6 +7,12 @@
 </div>
 <p>Just made a simple personal website 🎉</p>
 
+<div align="center">
+  
+![Alt Text](https://github.com/SafaElmali/SimplePersonalWebsite/blob/master/demo/demo.gif)
+
+</div>
+
 ## Toolbox Of This Project 🧰 
 
 <ul>
@@ -21,8 +27,6 @@
 
 <h1>Demo</h1>
 
-<div align="center">
-  
-![Alt Text](https://github.com/SafaElmali/SimplePersonalWebsite/blob/master/demo/demo.gif)
+### License
 
-</div>
+React is [MIT licensed](./LICENSE).
