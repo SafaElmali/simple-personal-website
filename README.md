@@ -29,4 +29,4 @@
 
 ### License
 
-React is [MIT licensed](./LICENSE).
+Simple-Personal-Website is [MIT licensed](./LICENSE).
