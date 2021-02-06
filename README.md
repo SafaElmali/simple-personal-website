@@ -23,5 +23,5 @@
 
 ### License
 
-Simple-Personal-Website is [MIT licensed](./LICENSE).
+simple-personal-website is [MIT licensed](./LICENSE).
  
