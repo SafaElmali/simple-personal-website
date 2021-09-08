@@ -7,7 +7,7 @@ $(document).ready(function () {
       });
     }),
     new Typed('.personalInfo', {
-        strings: ["I'm Junior Software Developer(Well at least trying to be!).<br> I love to make web and mobile applications!👨‍💻"],
+        strings: ["I'm a Frontend Developer (Well at least trying to be!).<br> I love to make web and mobile applications!👨‍💻"],
         typeSpeed: 20,
         startDelay: 1800,
         showCursor: false
